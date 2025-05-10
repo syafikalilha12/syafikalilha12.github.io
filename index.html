@@ -1,63 +1,83 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Syafik Alilha Personal Website 
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css"> 
-    </head>
-    <body>
-        <header>
-            <a href="#" class="logo">logo</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <section>
-            <img src="stars.png" id="stars">
-            <img src="moon.png" id="moon">
-            <img src="behind.png" id="behind">
-            <h2 id="text">Personal Website</h2>
-            <a href="#" id="btn">Explore</a>
-            <img src="front.png" id="front">
-        </section>
-        <div class="sec" id="sec">
-            <h2>Parallax Scrolling Effect</h2>
-            <p>
-                Loreal anjay akdnslandlanskdnalkn dsla kl sdla dl las dlkand lknasdklnalkdn lkansdklasnd lnsdlkasnd a
-                skdnklsndslkadsldn lskndlsakndlslkdnlandlkandlksndlandlksandlknask l lasndklandls dla lksdnlkasndla dla
-                lkasndlsandklandkna loremanhar oreal anjay akdnslandlanskdnalkn dsla kl sdla dl las dlkand lknasdklnalkdn lkansdklasnd lnsdlkasnd a
-                skdnklsndslkadsldn lskndlsakndlslkdnlandlkandlksndlandlksandlknask l lasndklandls dla lksdnlkasndla dla
-                lkasndlsandklandkna loremanhar oreal anjay akdnslandlanskdnalkn dsla kl sdla dl las dlkand lknasdklnalkdn lkansdklasnd lnsdlkasnd a
-                skdnklsndslkadsldn <br><br>lskndlsakndlslkdnlandlkandlksndlandlksandlknask l lasndklandls dla lksdnlkasndla dla
-                lkasndlsandklandkna loremanharoreal anjay akdnslandlanskdnalkn dsla kl sdla dl las dlkand lknasdklnalkdn lkansdklasnd lnsdlkasnd a
-                skdnklsndslkadsldn lskndlsakndlslkdnlandlkandlksndlandlksandlknask l lasndklandls dla lksdnlkasndla dla
-                lkasndlsandklandkna loremanharoreal anjay akdnslandlanskdnalkn dsla kl sdla dl las dlkand lknasdklnalkdn lkansdklasnd lnsdlkasnd a
-                skdnklsndslkadsldn lskndlsakndlslkdnlandlkandlksndlandlksandlknask l lasndklandls dla lksdnlkasndla dla
-                lkasndlsandklandkna loremanhar. 
-            </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Portofolio Web</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Syafik Alilha</a>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#" >Service</a>
+            <a href="#" >Skill</a>
+            <a href="#Education" class="Education">Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.JPEG" alt="">
         </div>
-        <script>
-            let stars = document.getElementById('stars');
-            let moon = document.getElementById('moon');
-            let behind = document.getElementById('behind');
-            let text = document.getElementById('text');
-            let btn = document.getElementById('btn');
-            let front = document.getElementById('front');
-            let header = document.querySelector('header');
-            window.addEventListener('scroll',function(){
-                let value = window.scrollY;
-                stars.style.left = value * 0.25 +'px';
-                moon.style.top = value * 1.05 +'px';
-                behind.style.top = value * 0.5 +'px';
-                front.style.top = value * 0 +'px';
-                text.style.marginRight = value * 3 +'px';
-                btn.style.marginTop = value * 1.5 +'px';
-                header.style.top = value * 0.5 + 'px';
-            })
-        </script>
-    </body>
+        <div class="home-content">
+            <h1>Hi, It's<span>Syafik</span></h1>
+            <h3 class="tulisan">I'am a<span></span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ratione sunt eius, magnam, hic laboriosam, corporis dolorum cum odit facere commodi tempora soluta! Dolor nobis ipsam voluptas animi molestiae praesentium.</p>
+            <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>   
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#" class="btn">Hire ME</a>
+    </div>
+    </section>
+    <section class="Service">
+
+    </section>
+    <section class="Education" id="Education">
+        <h2 class="headingEdu">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2015</div>
+                    <div class="timeline-content">
+                        <h3>Junior High School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorum accusantium, veniam, voluptatibus harum accusamus autem doloribus molestiae asperiores sint ad ex. Eaque voluptatibus repudiandae iusto ex quisquam praesentium omnis.
+                        </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>Senior High School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorum accusantium, veniam, voluptatibus harum accusamus autem doloribus molestiae asperiores sint ad ex. Eaque voluptatibus repudiandae iusto ex quisquam praesentium omnis.
+                        </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorum accusantium, veniam, voluptatibus harum accusamus autem doloribus molestiae asperiores sint ad ex. Eaque voluptatibus repudiandae iusto ex quisquam praesentium omnis.
+                        </p>
+                    </div>
+                
+            </div>
+
+
+        </div>
+    </section>
+</body>
 </html>
